@@ -1,1 +1,265 @@
 
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 50px 100px 0;
+    height: 600px;
+    background-image: url(header.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    color: rgb(255, 150, 13);
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .top-wrapper p {
+    color: #425ba9;
+    margin-bottom: 3px;
+    text-align: left;
+  }
+  
+  .btn-wrapper {
+    text-align: left;
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .join {
+    background-color: #0a1d7d;
+    box-shadow: -2px 1px 20px #8b8d91;
+    
+  }
+  
+  .btn-join {
+    background-color: #0a1d7d;
+    box-shadow: -2px 1px 20px #8b8d91;
+    
+  }
+  .btn {
+    padding: 4px 8px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 50px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 1px;
+  }
+  
+  .medsos {
+    background-color: #f8630d;
+    margin-right: 1px;
+  }
+  
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 5px 10px 50px #c7cad3;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 15px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: #425ba9;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 24, 24, 0.3);
+  }
+  
+  .lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 20%;
+  
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #504953;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #3006d8;
+    cursor: pointer;
+    box-shadow: 0 7px #032775;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  footer img {
+    width: 125px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #ffffff;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding: 20px;
+    background-color: #4768af;
+    text-align: center;
+  
+  }
+  
+  .main-footer {
+    padding: 20px;
+    background-color: #323844;
+    text-align: center;
+    height: 250px;
+  
+  }
+  
+  .member1{
+      width: 200px;
+      height: 200px;
+      background: #dac52c;
+      border-radius: 100%;
+      position: relative;
+       position: absolute;
+  
+    color: white;
+  }
+  
+  .team {
+      display: flex;
+  
+    width: 100%;
+    color: white;
+  
+  }
+  
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+  
+  @media all and (max-width: 1000px) {
+    
+  }
+  
+  
+  @media all and (max-width: 670px) {
+    .header-right {
+      display: none;
+    }
+    
+    .menu-icon {
+      display: block;
+    }
+  }
+
